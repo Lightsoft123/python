@@ -93,3 +93,23 @@ for i in test_list: #looping all test_list value (can solve some cases if there 
 9
 10
 
+#test_list = ["1", "2.11", "2.12", "2.2", "3", "5", "6", "7", "8", "9", "10"]
+#example for looping with "while"
+i = 0
+while i < len(test_list):
+    print(test_list[i])
+    i += 1
+#output :
+1
+2.11
+2.12
+2.2
+3
+5
+6
+7
+8
+9
+10
+
+
