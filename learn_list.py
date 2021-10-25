@@ -30,4 +30,7 @@ test_list.insert(6, "3") #insert "3" to 6th index("5" is 6th index will be moved
 print(test_list)
 #output : ['1', '2.11', '2.12', '2.13', '2.2', '2.3', '3', '5', '6']
 
-
+#test_list = ["1", "2.11", "2.12", "2.13", "2.2", "2.3", "3", "5", "6"]
+test_list.append("7") #insert "7" to the end of the list.
+print(test_list)
+#output : ['1', '2.11', '2.12', '2.13', '2.2', '2.3', '3', '5', '6', '7']
