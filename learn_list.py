@@ -9,4 +9,9 @@ print(test_list[1:len(test_list)]) #it works like using looping from index i-th 
 print(test_list[1:5]) #other example for using "var[index:index]" (works like looping from 1st index to 5-1 = 4th index)
 print(test_list[:len(test_list)]) #it works like looping, but the start index is always from index 0 until length of test_list-1 (0 to 5)
 print(test_list[:len(test_list)-1]) #other example for using "var[:index]" (works like looping from index 0 to length of test_list-1-1 (0 to 4)
+print(test_list[-4:-1]) #another example for using "var[index:index]". it works like looping from -4 to -1 (decrement)
+
+if "3" in test_list: #it works by finding "3" in list of test_list
+    print("Yes, it is \"3\"") #print this, if statements true
+#output : Yes, it is "3"
 
