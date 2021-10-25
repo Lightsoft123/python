@@ -61,3 +61,13 @@ test_list.pop() #Removing list value in the end of list
 print(test_list)
 #output : ['1', '2.11', '2.12', '2.13', '2.2', '3', '5', '6', '7', '8', '9', '10']
 
+#test_list = ["1", "2.11", "2.12", "2.13", "2.2", "3", "5", "6", "7", "8", "9", "10"]
+del test_list[3] #also, we can use "del" to delete/remove list value based on index
+print(test_list)
+#output : ['1', '2.11', '2.12', '2.2', '3', '5', '6', '7', '8', '9', '10']
+
+del test_list #delete test_list variable
+print(test_list)
+#output : NameError: name 'test_list' is not defined
+#output will cause an error because "test_list" variable has been deleted and it hasn't declared yet.
+
