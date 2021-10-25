@@ -20,7 +20,14 @@ test_list[1:4] = ["2.1", "2.2", "2.3"] #it works by changing value of list test_
 print(test_list) #print test_list variable
 #output : ['1', '2.1', '2.2', '2.3', '5', '6']
 
-test_list[1:2] = ["2.11", "2.12", "2.13"] #also, we can replace 1 index (I take 2nd index) value with 2 or 3 or even more new values.
+#test_list = ["1", "2.1", "2.2", "2.3", "5", "6"]
+test_list[1:2] = ["2.11", "2.12", "2.13"] #also, we can replace 1 index (I take index 1st) value with 2 or 3 or even more new values.
 print(test_list) #print test_list variable
 #output : ['1', '2.11', '2.12', '2.13', '2.2', '2.3', '5', '6']
+
+#test_list = ["1", "2.11", "2.12", "2.13", "2.2", "2.3", "5", "6"]
+test_list.insert(6, "3") #insert "3" to 6th index("5" is 6th index will be moved to 7th index and "6" is 7th index will be moved to 8th index and etc
+print(test_list)
+#output : ['1', '2.11', '2.12', '2.13', '2.2', '2.3', '3', '5', '6']
+
 
