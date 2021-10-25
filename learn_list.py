@@ -77,3 +77,19 @@ test_list.clear() #clear list of test_list
 print(test_list)
 #output : []
 
+test_list = ["1", "2.11", "2.12", "2.2", "3", "5", "6", "7", "8", "9", "10"]
+for i in test_list: #looping all test_list value (can solve some cases if there are some index with non-value, so it would skip non-value from list looping)
+    print(i) #print items in list of test_list
+#output :
+1
+2.11
+2.12
+2.2
+3
+5
+6
+7
+8
+9
+10
+
