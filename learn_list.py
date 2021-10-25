@@ -34,3 +34,10 @@ print(test_list)
 test_list.append("7") #insert "7" to the end of the list.
 print(test_list)
 #output : ['1', '2.11', '2.12', '2.13', '2.2', '2.3', '3', '5', '6', '7']
+
+#test_list = ["1", "2.11", "2.12", "2.13", "2.2", "2.3", "3", "5", "6"]
+test_list2 = ["8", "9", "10"] #declare test_list2 variable as List and add "8", "9", "10" items
+test_list.extend(test_list2) #Add value from test_list2 variable to test_list (it works like append(), by adding the value to the end of the list)
+print(test_list)
+#output : ['1', '2.11', '2.12', '2.13', '2.2', '2.3', '3', '5', '6', '7', '8', '9', '10']
+
