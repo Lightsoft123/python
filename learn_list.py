@@ -112,6 +112,7 @@ while i < len(test_list):
 9
 10
 
+#using list comprehension
 #test_list = ["1", "2.11", "2.12", "2.2", "3", "5", "6", "7", "8", "9", "10"]
 [print(i) for i in test_list] #shortest code for looping values/items in List
 #Output :
@@ -127,7 +128,6 @@ while i < len(test_list):
 9
 10
 [None, None, None, None, None, None, None, None, None, None, None]
-
 #test_list = ["1", "2.11", "2.12", "2.2", "3", "5", "6", "7", "8", "9", "10"]
 make_new_list = [i for i in test_list if "2.11" in i] #take "2.11" value from test_list and save it to make_new_list variable
 print(make_new_list)
@@ -141,4 +141,11 @@ for i in test_list:
 print(make_new_list)
 #output : ['2.11']
 '''
+
+#another examples for using List Comprehension
+#test_list = ["1", "2.11", "2.12", "2.2", "3", "5", "6", "7", "8", "9", "10"]
+make_new_list = [i for i in test_list if not "1" in i] #save values of test_list
+print(make_new_list)
+#output : ['2.2', '3', '5', '6', '7', '8', '9']
+
 
