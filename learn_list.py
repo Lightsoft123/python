@@ -15,3 +15,8 @@ if "3" in test_list: #it works by finding "3" in list of test_list
     print("Yes, it is \"3\"") #print this, if statements true
 #output : Yes, it is "3"
 
+#test_list = ["1", "2", "3", "4", "5", "6"]
+test_list[1:4] = ["2.1", "2.2", "2.3"] #it works by changing value of list test_list from index 1 to 3
+print(test_list) #print variable test_list
+#output : ['1', '2.1', '2.2', '2.3', '5', '6']
+
