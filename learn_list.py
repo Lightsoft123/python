@@ -112,4 +112,20 @@ while i < len(test_list):
 9
 10
 
+#test_list = ["1", "2.11", "2.12", "2.2", "3", "5", "6", "7", "8", "9", "10"]
+[print(i) for i in test_list] #shortest code for looping values/items in List
+#Output :
+1
+2.11
+2.12
+2.2
+3
+5
+6
+7
+8
+9
+10
+[None, None, None, None, None, None, None, None, None, None, None]
+
 
