@@ -147,5 +147,8 @@ print(make_new_list)
 make_new_list = [i for i in test_list if not "1" in i] #save values of test_list
 print(make_new_list)
 #output : ['2.2', '3', '5', '6', '7', '8', '9']
-
+#or we can copy list from one variable to another variable. example :
+make_new_list = [i for i in test_list]
+print(make_new_list)
+#output : ['1', '2.11', '2.12', '2.2', '3', '5', '6', '7', '8', '9', '10']
 
