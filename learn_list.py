@@ -41,3 +41,9 @@ test_list.extend(test_list2) #Add value from test_list2 variable to test_list (i
 print(test_list)
 #output : ['1', '2.11', '2.12', '2.13', '2.2', '2.3', '3', '5', '6', '7', '8', '9', '10']
 
+#test_list = ["1", "2.11", "2.12", "2.13", "2.2", "2.3", "3", "5", "6", "7", "8", "9", "10"]
+test_list2 = ("11", "12") #declare var as tuple
+test_list.extend(test_list2) #adding List value with extend(), we can add any iterable object like tuple and etc
+#output : ['1', '2.11', '2.12', '2.13', '2.2', '2.3', '3', '5', '6', '7', '8', '9', '10', '11', '12']
+
+
