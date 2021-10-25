@@ -46,4 +46,9 @@ test_list2 = ("11", "12") #declare var as tuple
 test_list.extend(test_list2) #adding List value with extend(), we can add any iterable object like tuple and etc
 #output : ['1', '2.11', '2.12', '2.13', '2.2', '2.3', '3', '5', '6', '7', '8', '9', '10', '11', '12']
 
+#test_list = ["1", "2.11", "2.12", "2.13", "2.2", "2.3", "3", "5", "6", "7", "8", "9", "10", "11", "12"]
+test_list.remove("2.3") #remove List with "2.3" value
+print(test_list)
+#output : ['1', '2.11', '2.12', '2.13', '2.2', '3', '5', '6', '7', '8', '9', '10', '11', '12']
+
 
