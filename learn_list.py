@@ -152,3 +152,8 @@ make_new_list = [i for i in test_list]
 print(make_new_list)
 #output : ['1', '2.11', '2.12', '2.2', '3', '5', '6', '7', '8', '9', '10']
 
+test_list = ["abc", "cde", "fgh", "ijk"] #declare and init test_list
+make_new_list = [i.upper() for i in test_list] #for every value in test_list will be converted to uppercase and saved in to make_new_list
+print(test_list)
+#output : ['ABC', 'CDE', 'FGH', 'IJK']
+
