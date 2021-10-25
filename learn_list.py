@@ -55,3 +55,9 @@ print(test_list)
 test_list.pop(13) #Removing list value based on List index (in example pop 13th index
 print(test_list)
 #output : ['1', '2.11', '2.12', '2.13', '2.2', '3', '5', '6', '7', '8', '9', '10', '11']
+
+#test_list = ["1", "2.11", "2.12", "2.13", "2.2", "3", "5", "6", "7", "8", "9", "10", "11"]
+test_list.pop() #Removing list value in the end of list
+print(test_list)
+#output : ['1', '2.11', '2.12', '2.13', '2.2', '3', '5', '6', '7', '8', '9', '10']
+
