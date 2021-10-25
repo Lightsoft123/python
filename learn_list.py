@@ -16,7 +16,11 @@ if "3" in test_list: #it works by finding "3" in list of test_list
 #output : Yes, it is "3"
 
 #test_list = ["1", "2", "3", "4", "5", "6"]
-test_list[1:4] = ["2.1", "2.2", "2.3"] #it works by changing value of list test_list from index 1 to 3
-print(test_list) #print variable test_list
+test_list[1:4] = ["2.1", "2.2", "2.3"] #it works by changing value of list test_list from index 1 to 3 to new value
+print(test_list) #print test_list variable
 #output : ['1', '2.1', '2.2', '2.3', '5', '6']
+
+test_list[1:2] = ["2.11", "2.12", "2.13"] #also, we can replace 1 index (I take 2nd index) value with 2 or 3 or even more new values.
+print(test_list) #print test_list variable
+#output : ['1', '2.11', '2.12', '2.13', '2.2', '2.3', '5', '6']
 
