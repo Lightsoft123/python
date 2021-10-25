@@ -128,4 +128,17 @@ while i < len(test_list):
 10
 [None, None, None, None, None, None, None, None, None, None, None]
 
+#test_list = ["1", "2.11", "2.12", "2.2", "3", "5", "6", "7", "8", "9", "10"]
+make_new_list = [i for i in test_list if "2.11" in i] #take "2.11" value from test_list and save it to make_new_list variable
+print(make_new_list)
+#output : ['2.11']
+#it is shorter than using :
+'''
+make_new_list = [] #first, declare it as List
+for i in test_list:
+    if "2.11" in i: #if test_list contains "2.11", add it to make_new_list
+        make_new_list.append(i)
+print(make_new_list)
+#output : ['2.11']
+'''
 
