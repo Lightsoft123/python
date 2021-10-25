@@ -71,3 +71,9 @@ print(test_list)
 #output : NameError: name 'test_list' is not defined
 #output will cause an error because "test_list" variable has been deleted and it hasn't declared yet.
 
+test_list = ["1", "2.11", "2.12", "2.2", "3", "5", "6", "7", "8", "9", "10"] #declare and init test_list
+print(test_list) #make sure test_list has been declared and initiallized
+test_list.clear() #clear list of test_list
+print(test_list)
+#output : []
+
