@@ -157,3 +157,51 @@ make_new_list = [i.upper() for i in test_list] #for every value in test_list wil
 print(test_list)
 #output : ['ABC', 'CDE', 'FGH', 'IJK']
 
+test_list = ["cde", "ijk", "abc", "fgh"] #declare and init test_list
+test_list.sort() #sort list of test_list
+print(test_list) #check to make sure if it's sorted
+#output : ['abc', 'cde', 'fgh', 'ijk']
+
+#descending sort for list
+test_list = ["cde", "ijk", "abc", "fgh"] #declare and init test_list
+test_list.sort(reverse=True) #sort list of test_list, but with reverse (means, sorting by descending)
+print(test_list) #check to make sure if it's sorted
+#output : ['ijk', 'fgh', 'cde', 'abc']
+
+#sorting list with case sensitive
+test_list = ["Cde", "ijk", "abc", "fgh"]
+test_list.sort(reverse=True)
+print(test_list)
+#output : ['ijk', 'fgh', 'abc', 'Cde']
+
+#sorting list with case insensitive by descending
+test_list = ["Cde", "ijk", "abc", "fgh"]
+test_list.sort(key=str.lower, reverse=True) #sort list of test_list without caring about uppercase or lowercase letter in list.
+print(test_list) #check to make sure if it's sorted by descending and case insensitive
+#output : ['ijk', 'fgh', 'Cde', 'abc']
+
+#we are also able to reverse order of the list
+#test_list =  ['ijk', 'fgh', 'Cde', 'abc']
+test_list.reverse() #reverse the order of list
+print(test_list)
+#output : ['abc', 'Cde', 'fgh', 'ijk']
+
+#there are few ways to join two lists or more
+#method 1 :
+test_list = ["cde", "ijk", "abc", "fgh"]
+test_list2 = [1, 2, 3]
+test_list3 = test_list + test_list2
+print(test_list)
+#output : ['cde', 'ijk', 'abc', 'fgh', 1, 2, 3]
+#method 2 :
+#test_list = ["cde", "ijk", "abc", "fgh"]
+#test_list2 = [1, 2, 3]
+for i in test_list2:
+    test_list.append(i) #adding value of test_list2 into test_list
+print(test_list)
+#output : ['cde', 'ijk', 'abc', 'fgh', 1, 2, 3]
+#method 3 :
+test_list = ["cde", "ijk", "abc", "fgh"]
+test_list2 = [1, 2, 3]
+test_list.extend(test_list2) #test_list extend test_list2
+#output : ['cde', 'ijk', 'abc', 'fgh', 1, 2, 3]
